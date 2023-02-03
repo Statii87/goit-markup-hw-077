@@ -1,0 +1,17 @@
+@import 'utils/_variables.scss';
+body{
+margin: 0 auto;
+max-width: 1600px;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+.grid {
+ list-style-type: none;
+ &__link{
+    text-decoration: none;
+ }
+}
+@import 'components/page-header';
+

@@ -1,0 +1,43 @@
+.logo{
+    text-decoration: none;
+    color: $primary_color;
+    font-family: $logo_font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    &__header--color{
+        color: $black_color;
+    }
+    &__footer--color{
+        color: $white_color;
+    }
+}
+header{
+    border-bottom: 1px solid #ECECEC;
+
+    .page-header{
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        align-items: center;
+        .nav__header{
+            flex-grow: 1;
+        }
+        .nav{
+            display: flex;
+            gap: 50px;
+            padding-left: 93px;
+            font-weight: 500;
+            color: $subtitle_color;
+        }
+        .nav__link{
+            display: flex;
+            gap: 40px;
+
+            &__header{
+                color: $text_color;
+                font-weight: 500;
+            }
+        }
+    }
+}
