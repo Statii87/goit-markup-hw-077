@@ -18,6 +18,7 @@ header{
     .page-header{
         display: flex;
         max-width: 1200px;
+        height: 80px;
         margin: 0 auto;
         align-items: center;
         .nav__header{
@@ -48,6 +49,10 @@ header{
             &__header:focus,
             &__header:active{
                 color: $primary_color;
+            }
+            &__icon{
+                width: 16px;
+                height: 12px;
             }
         }
     }
