@@ -29,6 +29,12 @@ header{
             padding-left: 93px;
             font-weight: 500;
             color: $subtitle_color;
+            &__item:hover,
+            &__item:focus,
+            &__item:active{
+                color: $primary_color;
+                cursor: pointer;
+            }
         }
         .nav__link{
             display: flex;
@@ -37,6 +43,11 @@ header{
             &__header{
                 color: $text_color;
                 font-weight: 500;
+            }
+            &__header:hover,
+            &__header:focus,
+            &__header:active{
+                color: $primary_color;
             }
         }
     }

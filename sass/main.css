@@ -48,6 +48,10 @@ header .page-header .nav {
   font-weight: 500;
   color: #212121;
 }
+header .page-header .nav__item:hover, header .page-header .nav__item:focus, header .page-header .nav__item:active {
+  color: #2196F3;
+  cursor: pointer;
+}
 header .page-header .nav__link {
   display: flex;
   gap: 40px;
@@ -55,4 +59,7 @@ header .page-header .nav__link {
 header .page-header .nav__link__header {
   color: #757575;
   font-weight: 500;
+}
+header .page-header .nav__link__header:hover, header .page-header .nav__link__header:focus, header .page-header .nav__link__header:active {
+  color: #2196F3;
 }/*# sourceMappingURL=main.css.map */
