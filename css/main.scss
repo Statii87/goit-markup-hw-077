@@ -1,4 +1,4 @@
-@import '../sass/utils/variables';
+@import '../sass/utils/_variables.scss';
 body{
 margin: 0 auto;
 max-width: 1600px;
@@ -13,4 +13,4 @@ letter-spacing: 0.03em;
     text-decoration: none;
  }
 }
-@import 'components/page-header';
+@import '../sass/components/page-header';
