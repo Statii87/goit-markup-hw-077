@@ -10,8 +10,8 @@
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .inner-modal{
-  width: 528px;
-  height: 581px;
+  width: 455px;
+  height: 541px;
   background-color: $white_color;
   position: relative;
   border-radius: 4px;
@@ -25,6 +25,8 @@ fill: currentColor;
 }
 .close-bg-modal:hover{
   color: $primary_color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
   
 .close-bg-modal{
@@ -140,7 +142,7 @@ margin: 0;
   margin-top: 0;
 }
 .inner-contact{
-  width: 448px;
+  width: 408px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -162,6 +164,8 @@ margin: 0;
 .send-button:focus,
 .send-button:active{
   background-color: $second_color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .check-box{
   position: relative;
@@ -199,7 +203,7 @@ input[type="checkbox"]:checked+.check-box-replace+.icon-check{
 }
 .inner-comments{
   font-family: "Roboto", sans-serif;
-  width: 448px;
+  width: 430px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;

@@ -2,7 +2,7 @@
     background-image: linear-gradient(to top left, $black_color, $text_color);
     height: 600px;
     max-width: 1600px;
-    background-image: url(/images/studio/bgimg.jpg);
+    background-image: url(../images/studio/bgimg.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,6 +37,8 @@
         &:active,
         &:focus{
             background-color: $second_color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
     }
     

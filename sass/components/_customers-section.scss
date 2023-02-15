@@ -14,5 +14,7 @@
         fill: $primary_color;
         cursor: pointer;
         border: 1px solid $primary_color;
+        transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 }

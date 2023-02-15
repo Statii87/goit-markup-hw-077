@@ -110,6 +110,8 @@ body {
 .page-header .nav-header__item:hover, .page-header .nav-header__item:focus, .page-header .nav-header__item:active {
   color: #2196F3;
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .page-header .nav-header__list {
   position: relative;
@@ -133,6 +135,8 @@ body {
 }
 .page-header .grid__link:hover, .page-header .grid__link:focus, .page-header .grid__link:active {
   color: #2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .page-header .grid__link__envelope {
   width: 16px;
@@ -149,7 +153,7 @@ body {
   background-image: linear-gradient(to top left, #000, #757575);
   height: 600px;
   max-width: 1600px;
-  background-image: url(/images/studio/bgimg.jpg);
+  background-image: url(../images/studio/bgimg.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -181,6 +185,8 @@ body {
 }
 .hero-section__button:hover, .hero-section__button:active, .hero-section__button:focus {
   background-color: #188CE8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .description-section {
@@ -305,6 +311,8 @@ body {
   fill: #2196F3;
   cursor: pointer;
   border: 1px solid #2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
@@ -394,6 +402,8 @@ body {
 }
 .subscribe-button:hover, .subscribe-button:focus, .subscribe-button:active {
   background-color: #188CE8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-item {
@@ -417,6 +427,8 @@ body {
   color: #fff;
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-section {
@@ -495,8 +507,8 @@ body {
 }
 
 .inner-modal {
-  width: 528px;
-  height: 581px;
+  width: 455px;
+  height: 541px;
   background-color: #fff;
   position: relative;
   border-radius: 4px;
@@ -512,6 +524,8 @@ body {
 
 .close-bg-modal:hover {
   color: #2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-bg-modal {
@@ -646,7 +660,7 @@ body {
 }
 
 .inner-contact {
-  width: 448px;
+  width: 408px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -671,6 +685,8 @@ body {
 .send-button:focus,
 .send-button:active {
   background-color: #188CE8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-box {
@@ -714,7 +730,7 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
 
 .inner-comments {
   font-family: "Roboto", sans-serif;
-  width: 448px;
+  width: 430px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
