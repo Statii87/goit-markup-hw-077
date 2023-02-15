@@ -1,0 +1,18 @@
+.customers-section{
+    max-width: 1200px;
+    margin: 94px auto;
+}
+.icon-customers{
+    width: 170px;
+    height: 92px;
+    border: 1px solid $svg_color;
+    border-radius: 4px;
+    fill: $svg_color;
+    &:focus,
+    &:active,
+    &:hover{
+        fill: $primary_color;
+        cursor: pointer;
+        border: 1px solid $primary_color;
+    }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="page-header">
+        <section class="page-header__section">
+            <a href="index.html" class="logo">Web<span class="logo__header--color">Studio</span></a>
+            <nav class="nav-header">
+                <ul class="grid nav-header__list">
+                    <li class="nav-header__list"><a href="index.html" class="nav-header__item">Studio</a></li>
+                    <li class="nav-header__list"><a href="portfolio.html" class="nav-header__item after-link">Portfolio</a></li>
+                    <li class="nav-header__list"><a href="#" class="nav-header__item">Contacts</a></li>
+                </ul>
+            </nav>
+            <ul class="grid">
+                <li>
+                    <a class="grid__link" href="mailto:info@devstudio.com">
+                        <svg class="grid__link__envelope">
+                        <use href="images/svg/svg-defs.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com</a> 
+                </li>
+                <li>
+                    <a class="grid__link" href="tel:+12127724150">
+                        <svg class="grid__link__phone">
+                        <use href="images/svg/svg-defs.svg#icon-phone"></use>
+                        </svg> +1 212-772-4150</a>
+                </li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section>
+            <ul class="grid project">
+                <li>
+                    <button type="button" class="project__list">All</button>
+                </li>
+                <li>
+                    <button type="button" class="project__list">Web-sites</button>
+                </li>
+                <li>
+                    <button type="button" class="project__list">Apps</button>
+                </li>
+                <li>
+                    <button type="button" class="project__list">Design</button>
+                </li>
+                <li>
+                    <button type="button" class="project__list">Marketing</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer-section">
+            <div class="address-container">
+                <a href="#" class="logo">Web<span class="logo__footer--color">Studio</span></a>
+                <address>
+                    <ul class="grid contact-footer">
+                        <li><a class="grid__link contact-footer-address--color" href="https://goo.gl/maps/mKv1Wdt1ppiUG6r59" target="_blank"> 695 Park Ave, NY 10065, USA</a></li>
+                        <li><a class="grid__link contact-footer-address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="grid__link contact-footer-address" href="tel:+12127724150">+1 212-772-4150</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div>
+                <h3 class="subtitle-footer">FIND US ON</h3>
+                <ul class="grid social-team">
+                        <li>
+                            <a href="#" target="_blank" class="social-link social-link--footer"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-instagram"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link social-link--footer"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-twitter"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link social-link--footer"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-facebook"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link social-link--footer"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-linkedin"></use>
+                            </svg></a>
+                        </li>
+                    </ul>
+            </div>
+            <div>
+                <h3 class="subtitle-footer">Subscribe to the newsletter</h3>
+                <form name="subscribe" autocomplete="off" class="form-subscribe">
+                    <label class="">
+                        <input type="email" name="email" class="imput-form" placeholder="E-mail">
+                    </label>
+                <button type="submit" class="subscribe-button">Subscribe 
+                <svg class="plane-icon">
+                    <use href="./images/svg/close-modal.svg#icon-plane-send"></use>
+                </svg>
+                </button>
+          </form>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

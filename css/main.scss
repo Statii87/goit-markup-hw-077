@@ -9,10 +9,63 @@ letter-spacing: 0.03em;
 }
 .grid {
  list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 30px;
+ padding: 0;
  &__link{
     text-decoration: none;
  }
 }
+.grid--col-6 .grid__item{
+   flex-basis: calc((100% - 150px)/ 6);
+   flex-grow: 0;
+   flex-shrink: 0;
+}
+.grid--col-4 .grid__item{
+   flex-basis: calc((100% - 90px)/ 4);
+   flex-grow: 0;
+   flex-shrink: 0;
+}
+.grid--col-3 .grid__item{
+   flex-basis: calc((100% - 60px)/ 3);
+   flex-grow: 0;
+   flex-shrink: 0;
+}
+.title{
+   text-align: center;
+   font-weight: 700;
+   font-size: 36px;
+   color: $subtitle_color;
+   line-height: 1.16;
+   margin-bottom: 50px;
+}
+.social-icon{
+   width: 20px;
+   height: 20px;
+}
+.social-link{
+   width: 44px;
+   height: 44px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   fill: currentColor;
+}
+.social-link:hover,
+.social-link:focus,
+.social-link:active{
+   background-color: $primary_color;
+   border-radius: 50%;
+   fill: $white_color;
+}
+
 @import '../sass/components/_page-header';
 @import '../sass/components/_hero-section';
-
+@import  '../sass/components/descriprion-section';
+@import '../sass/components/what-we-do-section';
+@import '../sass/components/our-team-section';
+@import '../sass/components/customers-section';
+@import '../sass/components/footer-section';
+@import '../sass/components/main-portfolio'

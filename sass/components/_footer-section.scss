@@ -1,0 +1,79 @@
+.footer{
+     background-color: $bg_footer_color;
+     height: 251px;
+
+    &-section{
+    display: flex;
+    max-width: 1200px;
+    margin: 0px auto;
+    gap: 94px;
+    justify-content: space-between;
+    }
+}
+.contact-footer{
+    flex-direction: column;
+    margin-top: 28px;
+    gap:12px;
+    &-address{
+        color:  rgba(255, 255, 255, 0.6);
+       font-style: normal;
+       &--color{
+        color: $white_color;
+        font-style: normal;
+       }
+    }
+}
+.address-container{
+ margin-top: 60px;
+}
+.subtitle-footer{
+    font-weight: 700;
+    color: $white_color;
+    text-transform: uppercase;
+    padding-top: 72px;
+}
+.social-link--footer{
+    fill: $white_color;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.imput-form{
+    background-color: transparent;
+    width: 358px;
+    height: 50px;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 16px;
+    color: $white_color;
+    font-size: 16px;
+}
+.plane-icon{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 13px;
+    right: 28px;
+}
+.subscribe-button{
+    position: relative;
+    margin-left: 12px;
+    height: 50px;
+    width: 200px;
+    background-color: $primary_color;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    color: $white_color;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    padding-right: 77px;
+    text-align: end;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

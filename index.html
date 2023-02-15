@@ -15,10 +15,10 @@
         <section class="page-header__section">
             <a href="#" class="logo">Web<span class="logo__header--color">Studio</span></a>
             <nav class="nav-header">
-                <ul class="grid nav-header__list">
-                    <li class="nav-header__item">Studio</li>
-                    <li class="nav-header__item">Portfolio</li>
-                    <li class="nav-header__item">Contacts</li>
+                <ul class="grid ">
+                    <li class="nav-header__list"><a href="index.html" class="nav-header__item after-link">Studio</a></li>
+                    <li class="nav-header__list"><a href="portfolio.html" class="nav-header__item">Portfolio</a></li>
+                    <li class="nav-header__list"><a href="#" class="nav-header__item">Contacts</a></li>
                 </ul>
             </nav>
             <ul class="grid">
@@ -43,136 +43,259 @@
             <h1 class="hero-section__title">EFFECTIVE SOLUTIONS FOR <br> YOUR BUSINESS</h1>
             <button class="hero-section__button" type="button">Request our service</button>
         </section>
-        <section>
-            <div>
-                <ul class="grid">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+        <section class="description-section">
+                <ul class="grid grid--col-4 description-section__list">
+                    <li class="grid__item">
+                        <div class="description-section__svg">
+                            <svg class="description-section__icon">
+                            <use href="/images/svg/svg-defs.svg#icon-antenna"></use></svg>
+                        </div>
+                        <h3 class="description-section__subtitle">ATTENTION TO DETAILS</h3>
+                        <p class="description-section__text">We go into all the details and processes of your business to develop a customized solution.</p>
+                    </li>
+                    <li class="grid__item">
+                        <div class="description-section__svg">
+                            <svg class="description-section__icon">
+                            <use href="/images/svg/svg-defs.svg#icon-clock"></use></svg>
+                        </div>
+                        <h3 class="description-section__subtitle">PUNCTUALITY</h3>
+                        <p class="description-section__text">With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.</p>
+                    </li>
+                    <li class="grid__item">
+                        <div class="description-section__svg">
+                            <svg class="description-section__icon">
+                            <use href="/images/svg/svg-defs.svg#icon-diagram"></use></svg>
+                        </div>
+                        <h3 class="description-section__subtitle">PLANNING</h3>
+                        <p class="description-section__text">You will be able to observe and participate in every phase of solution development and implementation.</p>
+                    </li>
+                    <li class="grid__item">
+                        <div class="description-section__svg">
+                            <svg class="description-section__icon">
+                            <use href="/images/svg/svg-defs.svg#icon-astronaut"></use>
+                        </svg>
+                        </div>
+                        <h3 class="description-section__subtitle">MODERN TECHNOLOGIES</h3>
+                        <p class="description-section__text">We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
+                    </li>
                 </ul>
-            </div>
-            <div>
-                <ul class="grid">
-                    <li>
-                        <h3>ATTENTION TO DETAILS</h3>
-                        <p>We go into all the details and processes of your business to develop a customized solution.</p>
-                    </li>
-                    <li>
-                        <h3>PUNCTUALITY</h3>
-                        <p>With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.</p>
-                    </li>
-                    <li>
-                        <h3>PLANNING</h3>
-                        <p>You will be able to observe and participate in every phase of solution development and implementation.</p>
-                    </li>
-                    <li>
-                        <h3>MODERN TECHNOLOGIES</h3>
-                        <p>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
-                    </li>
-                </ul>
-            </div>
         </section>
-        <section>
-            <h2>What we do</h2>
-            <ul class="grid">
-                <li>
+        <section class="what-we-do-section">
+            <h2 class="title">What we do</h2>
+            <ul class="grid grid--col-3">
+                <li class="grid__item image-list">
                     <img src="images/studio/img.jpg" alt="DESKTOP APPS" width="370">
-                    <div>DESKTOP APPS</div>
+                    <div class="image-list__title">DESKTOP APPS</div>
                 </li>
-                <li>
+                <li class="grid__item image-list">
                     <img src="images/studio/img1.jpg" alt="MOBILE APPS" width="370">
-                    <div>MOBILE APPS</div>
+                    <div class="image-list__title">MOBILE APPS</div>
                 </li>
-                <li>
+                <li class="grid__item image-list">
                     <img src="images/studio/img2.jpg" alt="DESIGN SOLUTIONS" width="370">
-                    <div>DESIGN SOLUTIONS</div>
+                    <div class="image-list__title">DESIGN SOLUTIONS</div>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Our Team</h2>
-            <ul class="grid">
-                <li>
-                    <img src="images/studio/team1.jpg" alt="Christopher Walker" width="370">
-                    <h3>Christopher Walker</h3>
-                    <p>Product Designer</p>
-                    <ul class="grid">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+        <section class="team">
+            <h2 class="title">Our Team</h2>
+            <ul class="grid grid--col-4 team__item">
+                <li class="grid__item team__list">
+                    <img src="images/studio/team1.jpg" alt="Christopher Walker" width="270">
+                    <h3 class="team__list-title">Christopher Walker</h3>
+                    <p class="team__list-text">Product Designer</p>
+                    <ul class="grid social-team">
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-instagram"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-twitter"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-facebook"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-linkedin"></use>
+                            </svg></a>
+                        </li>
                     </ul>
                 </li>
-                <li>
-                    <img src="images/studio/team2.jpg" alt="Kylie Evans" width="370">
-                    <h3>Kylie Evans</h3>
-                    <p>Frontend Developer</p>
-                    <ul class="grid">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                <li class="grid__item team__list">
+                    <img src="images/studio/team2.jpg" alt="Kylie Evans" width="270">
+                    <h3 class="team__list-title">Kylie Evans</h3>
+                    <p class="team__list-text">Frontend Developer</p>
+                    <ul class="grid social-team">
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-instagram"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-twitter"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-facebook"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-linkedin"></use>
+                            </svg></a>
+                        </li>
                     </ul>
                 </li>
-                <li>
-                    <img src="images/studio/team3.jpg" alt="Ryan Harris" width="370">
-                    <h3>Ryan Harris</h3>
-                    <p>Marketing</p>
-                    <ul class="grid">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                <li class="grid__item team__list">
+                    <img src="images/studio/team3.jpg" alt="Ryan Harris" width="270">
+                    <h3 class="team__list-title">Ryan Harris</h3>
+                    <p class="team__list-text">Marketing</p>
+                    <ul class="grid social-team">
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-instagram"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-twitter"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-facebook"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-linkedin"></use>
+                            </svg></a>
+                        </li>
                     </ul>
                 </li>
-                <li>
-                    <img src="images/studio/team4.jpg" alt="Tyler Moore" width="370">
-                    <h3>Tyler Moore</h3>
-                    <p>UI Designer</p>
-                    <ul class="grid">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                <li class="grid__item team__list">
+                    <img src="images/studio/team4.jpg" alt="Tyler Moore" width="270">
+                    <h3 class="team__list-title">Tyler Moore</h3>
+                    <p class="team__list-text">UI Designer</p>
+                    <ul class="grid social-team">
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-instagram"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-twitter"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-facebook"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-linkedin"></use>
+                            </svg></a>
+                        </li>
                     </ul>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Regular Customers</h2>
-            <ul class="grid">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+        <section class="customers-section">
+            <h2 class="title">Regular Customers</h2>
+            <ul class="grid grid--col-6">
+                <li class="grid__item">
+                    <svg class="icon-customers">
+                        <use href="./images/svg/defs-company-logo.svg#icon-logo1"></use>
+                    </svg>
+                </li>
+                <li class="grid__item">
+                    <svg class="icon-customers">
+                        <use href="./images/svg/defs-company-logo.svg#icon-logo2"></use>
+                    </svg>
+                </li>
+                <li class="grid__item">
+                    <svg class="icon-customers">
+                        <use href="./images/svg/defs-company-logo.svg#icon-logo3"></use>
+                    </svg>
+                </li>
+                <li class="grid__item">
+                    <svg class="icon-customers">
+                        <use href="./images/svg/defs-company-logo.svg#icon-logo4"></use>
+                    </svg>
+                </li>
+                <li class="grid__item">
+                    <svg class="icon-customers">
+                        <use href="./images/svg/defs-company-logo.svg#icon-logo5"></use>
+                    </svg>
+                </li>
+                <li class="grid__item">
+                    <svg class="icon-customers">
+                        <use href="./images/svg/defs-company-logo.svg#icon-logo6"></use>
+                    </svg>
+                </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="#" class="logo">Web<span class="logo__footer--color">Studio</span></a>
-        <address>
-            <ul class="grid">
-                <li><a class="grid__link" href="https://goo.gl/maps/mKv1Wdt1ppiUG6r59" target="_blank"> 695 Park Ave, NY 10065, USA</a></li>
-                <li><a class="grid__link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="grid__link" href="tel:+12127724150">+1 212-772-4150</a></li>
-            </ul>
-        </address>
-        <section>
-            <h3>FIND US ON</h3>
-            <ul class="grid">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </section>
-        <section>
-            <h3>Subscribe to the newsletter</h3>
-            <input type="email">
-            <button type="submit">Subscribe</button>
+    <footer class="footer">
+        <section class="footer-section">
+            <div class="address-container">
+                <a href="#" class="logo">Web<span class="logo__footer--color">Studio</span></a>
+                <address>
+                    <ul class="grid contact-footer">
+                        <li><a class="grid__link contact-footer-address--color" href="https://goo.gl/maps/mKv1Wdt1ppiUG6r59" target="_blank"> 695 Park Ave, NY 10065, USA</a></li>
+                        <li><a class="grid__link contact-footer-address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="grid__link contact-footer-address" href="tel:+12127724150">+1 212-772-4150</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div>
+                <h3 class="subtitle-footer">FIND US ON</h3>
+                <ul class="grid social-team">
+                        <li>
+                            <a href="#" target="_blank" class="social-link social-link--footer"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-instagram"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link social-link--footer"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-twitter"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link social-link--footer"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-facebook"></use>
+                            </svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-link social-link--footer"><svg class="social-icon social-icon--color">
+                                <use href="./images/svg/svg-defs.svg#icon-linkedin"></use>
+                            </svg></a>
+                        </li>
+                    </ul>
+            </div>
+            <div>
+                <h3 class="subtitle-footer">Subscribe to the newsletter</h3>
+                <form name="subscribe" autocomplete="off" class="form-subscribe">
+                    <label class="">
+                        <input type="email" name="email" class="imput-form" placeholder="E-mail">
+                    </label>
+                <button type="submit" class="subscribe-button">Subscribe 
+                <svg class="plane-icon">
+                    <use href="./images/svg/close-modal.svg#icon-plane-send"></use>
+                </svg>
+                </button>
+          </form>
+            </div>
         </section>
     </footer>
 </body>
