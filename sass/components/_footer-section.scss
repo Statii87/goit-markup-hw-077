@@ -76,4 +76,11 @@
     outline: none;
     border: none;
     cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active{
+        background-color:$second_color;
+    }
+
 }

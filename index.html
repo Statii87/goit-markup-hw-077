@@ -11,6 +11,55 @@
     <title>Studio</title>
 </head>
 <body>
+    <div class="modal is-hidden" data-modal>
+      <div class="inner-modal">
+        <h3 class="inner-title">Leave your information and we'll call you back</h3>
+        <form name="modal form" autocomplete="off">
+          <label class="form-label">
+            Name
+              <svg class="icon-person icon-form">
+                <use href="./images/svg/close-modal.svg#icon-person" class="icon-test"></use>
+              </svg>
+              <input type="text" name="name" class="inner-contact">
+          </label>
+          <label class="form-label">
+            Telephone
+            <svg class="icon-phone icon-form">
+                <use href="images/svg/close-modal.svg#icon-phone"></use>
+              </svg>
+            <input type="tel" name="phone" class="inner-contact">
+          </label>
+          <label class="form-label">
+            E-mail
+            <svg class="icon-mail icon-form">
+                <use href="images/svg/close-modal.svg#icon-email"></use>
+              </svg>
+            <input type="mail" name="e-mail" class="inner-contact">
+          </label>
+          <label class="form-label">
+            Comments
+            <textarea name="comments"  placeholder="Enter the text" class="inner-comments"></textarea>
+          </label>
+          <label class="check-box">
+            
+            <input type="checkbox" name="terms and conditions" class="terms-conditions">
+            <svg class="check-box-replace">
+              <use href="images/svg/close-modal.svg#icon-check-box"></use>
+            </svg>
+            <svg class="icon-check">
+              <use href="images/svg/close-modal.svg#icon-check"></use>
+            </svg>
+            I agree with the letter and accept the <span class="terms-conditions-last">Terms and Conditions</span>
+          </label>
+          <button type="submit" class="send-button">Send</button>
+        </form>
+        <div class="close-bg-modal" data-modal-close>
+          <svg class="close-modal-icon">
+            <use href="images/svg/close-modal.svg#icon-close-modal"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
     <header class="page-header">
         <section class="page-header__section">
             <a href="#" class="logo">Web<span class="logo__header--color">Studio</span></a>
@@ -41,7 +90,7 @@
     <main>
         <section class="hero-section">
             <h1 class="hero-section__title">EFFECTIVE SOLUTIONS FOR <br> YOUR BUSINESS</h1>
-            <button class="hero-section__button" type="button">Request our service</button>
+            <button class="hero-section__button" type="button" data-modal-open>Request our service</button>
         </section>
         <section class="description-section">
                 <ul class="grid grid--col-4 description-section__list">
@@ -297,6 +346,7 @@
           </form>
             </div>
         </section>
+        <script src="./js/modal.js"></script>
     </footer>
 </body>
 </html>
